@@ -1,0 +1,41 @@
+body{
+    background-color: #e1e1e1;
+}
+h1{
+    text-align: center;
+}
+.game-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.info{
+    border: 1px solid red;
+    flex-grow: 2;
+}
+.dise{
+    flex-grow: 1;
+}
+.mowe{
+    flex-grow: 1;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.game-board{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    margin-left: auto;
+    margin-right: 40px;
+    flex-grow: 2;
+}
+.squar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
